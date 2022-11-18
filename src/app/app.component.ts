@@ -5897,8 +5897,8 @@ export class AppComponent {
       alert("hai già 8 difensori");
       return;
     }
-    if (portieri == 2 && row.ruolo == Ruolo.P) {
-      alert("hai già 2 portieri");
+    if (portieri == 3 && row.ruolo == Ruolo.P) {
+      alert("hai già 3 portieri");
       return;
     }
     if (attaccanti == 6 && row.ruolo == Ruolo.A) {
